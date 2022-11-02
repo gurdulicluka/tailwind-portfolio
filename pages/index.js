@@ -93,7 +93,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 dark:bg-gradient-to-t dark:from-black">
-              <Image src={design} alt="design" width={100} height={100} />
+              <Image src={design} alt="designes" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-400">
                 Beautiful Designs
               </h3>
