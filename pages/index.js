@@ -69,7 +69,7 @@ export default function Home() {
             <AiFillYoutube />
           </div>
           <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mx-auto mt-20 overflow-hidden md:h-96 md:w-96">
-            <Image src={deved} layout="fill" objectFit="cover" />
+            <Image src={deved} alt="avatar" layout="fill" objectFit="cover" />
           </div>
         </section>
         <section>
@@ -93,7 +93,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 dark:bg-gradient-to-t dark:from-black">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} alt="design" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-400">
                 Beautiful Designs
               </h3>
@@ -107,7 +107,7 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-gray-200">Lorem.</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 dark:bg-gradient-to-t dark:from-black">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} alt="code" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-400">
                 Clean Code
               </h3>
@@ -121,7 +121,12 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-gray-200">Lorem.</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 dark:bg-gradient-to-t dark:from-black">
-              <Image src={consulting} width={100} height={100} />
+              <Image
+                src={consulting}
+                alt="consulting"
+                width={100}
+                height={100}
+              />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-400">
                 Innovative Consulting
               </h3>
@@ -157,6 +162,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web1}
+                alt="project"
                 width={"100"}
                 height={"100%"}
                 layout="responsive"
@@ -166,6 +172,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web2}
+                alt="project"
                 width={"100"}
                 height={"100%"}
                 layout="responsive"
@@ -175,6 +182,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web3}
+                alt="project"
                 width={"100"}
                 height={"100%"}
                 layout="responsive"
@@ -184,6 +192,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web4}
+                alt="project"
                 width={"100"}
                 height={"100%"}
                 layout="responsive"
@@ -193,6 +202,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web5}
+                alt="project"
                 width={"100"}
                 height={"100%"}
                 layout="responsive"
@@ -202,6 +212,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web6}
+                alt="project"
                 width={"100"}
                 height={"100%"}
                 layout="responsive"
